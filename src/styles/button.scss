@@ -1,0 +1,21 @@
+.fontWeight {
+  font-weight: 700 !important;
+  div {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.btn-text {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.15s;
+  &:hover {
+    color: #e7af06 !important;
+  }
+    &:focus {
+    box-shadow: none !important;
+  }
+}
