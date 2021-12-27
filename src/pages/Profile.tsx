@@ -19,10 +19,6 @@ const Profile = () => {
   const [searchUser, setSearchUser] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    // getrepoUser();
-  }, []);
-
   const getSearchUser = async () => {
     try {
       setIsLoading(true);
