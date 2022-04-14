@@ -48,7 +48,6 @@ const Profile = () => {
             <a
               className="fw-bold fs-2 text-start btn-text"
               href={user?.profile.html_url}
-              target="_blank"
             >
               {user?.profile.name}
             </a>

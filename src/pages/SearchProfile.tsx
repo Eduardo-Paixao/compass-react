@@ -61,7 +61,6 @@ const SearchProfile = () => {
               <a
                 className="fw-bold fs-2 text-start btn-text"
                 href={searchUser?.html_url}
-                target="_blank"
               >
                 {searchUser?.name}
               </a>
